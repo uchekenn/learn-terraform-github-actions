@@ -12,10 +12,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "uchekenn-terraform-demos"
+    organization = "example-org-ae694b"
     hostname ="app.terraform.io"
     workspaces {
-      name = "demo-github-actions"
+      name = "getting-started"
     }
     token = "TF_API_TOKEN"
   }
