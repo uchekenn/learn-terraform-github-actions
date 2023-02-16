@@ -13,10 +13,11 @@ terraform {
 
   cloud {
     organization = "uchekenn-terraform-demos"
-
+    hostname ="app.terraform.io"
     workspaces {
       name = "demo-github-actions"
     }
+    token = "TF_API_TOKEN"
   }
 }
 
