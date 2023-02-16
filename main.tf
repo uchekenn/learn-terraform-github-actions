@@ -11,13 +11,13 @@ terraform {
   }
   required_version = ">= 1.1.0"
 
+  terraform {
   cloud {
     organization = "example-org-ae694b"
-    hostname ="app.terraform.io"
+
     workspaces {
-      name = "getting-started"
+      name = "Jenkins"
     }
-    token = "TF_API_TOKEN"
   }
 }
 
