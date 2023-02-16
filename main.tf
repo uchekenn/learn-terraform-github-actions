@@ -10,8 +10,7 @@ terraform {
     }
   }
   required_version = ">= 1.1.0"
-
-  terraform {
+  
   cloud {
     organization = "example-org-ae694b"
 
@@ -19,7 +18,6 @@ terraform {
       name = "Jenkins"
     }
   }
-}
 
 provider "aws" {
   region = "us-west-2"
