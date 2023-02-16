@@ -18,7 +18,7 @@ terraform {
       name = "Jenkins"
     }
   }
-
+}
 provider "aws" {
   region = "us-west-2"
 }
