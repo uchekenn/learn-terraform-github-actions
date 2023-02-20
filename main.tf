@@ -1,9 +1,8 @@
 terraform {
-  required_providers {
-    aws = {
-      version = "~> 4.0"
-  region  = "us-east-1
-    }
+  provider "aws" {
+  version = "~> 4.0"
+  region  = "us-east-1"
+}
     random = {
       source  = "hashicorp/random"
       version = "3.0.1"
